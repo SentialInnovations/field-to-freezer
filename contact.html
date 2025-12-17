@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Field To Freezer</title>
+    <meta name="description" content="Get in touch with Field To Freezer for taxidermy and game processing services. We're here to help with your next project.">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <a href="index.html" class="logo">
+                    <span class="logo-text">Field To Freezer</span>
+                </a>
+                <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Contact Us</h1>
+            <p>Get in touch to discuss your taxidermy or game processing needs</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-grid">
+                <!-- Contact Form -->
+                <div class="contact-form-container">
+                    <h2>Send Us a Message</h2>
+                    <p class="form-description">Fill out the form below and we'll get back to you as soon as possible.</p>
+                    
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email">Email Address *</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" name="phone">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="service">Service Interest</label>
+                            <select id="service" name="service">
+                                <option value="">Select a service...</option>
+                                <option value="taxidermy">Taxidermy Services</option>
+                                <option value="processing">Game Processing</option>
+                                <option value="both">Both Services</option>
+                                <option value="question">General Question</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" rows="6" required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+                        
+                        <div id="formMessage" class="form-message"></div>
+                    </form>
+                </div>
+
+                <!-- Contact Info -->
+                <div class="contact-info-container">
+                    <div class="contact-info-card">
+                        <h3>Get In Touch</h3>
+                        <p>We're here to answer your questions and discuss your project needs. Reach out today!</p>
+                        
+                        <div class="contact-details">
+                            <div class="contact-detail">
+                                <div class="detail-icon">📞</div>
+                                <div class="detail-content">
+                                    <h4>Phone</h4>
+                                    <p>(555) 123-4567</p>
+                                </div>
+                            </div>
+
+                            <div class="contact-detail">
+                                <div class="detail-icon">✉️</div>
+                                <div class="detail-content">
+                                    <h4>Email</h4>
+                                    <p>info@fieldtofreezer.com</p>
+                                </div>
+                            </div>
+
+                            <div class="contact-detail">
+                                <div class="detail-icon">📍</div>
+                                <div class="detail-content">
+                                    <h4>Location</h4>
+                                    <p>123 Hunter's Lane<br>Your City, ST 12345</p>
+                                </div>
+                            </div>
+
+                            <div class="contact-detail">
+                                <div class="detail-icon">🕒</div>
+                                <div class="detail-content">
+                                    <h4>Hours</h4>
+                                    <p>Monday - Friday: 8am - 6pm<br>
+                                       Saturday: 9am - 4pm<br>
+                                       Sunday: Closed</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-cta-card">
+                        <h3>Need Immediate Assistance?</h3>
+                        <p>For urgent matters or to discuss drop-off times, give us a call directly.</p>
+                        <a href="tel:5551234567" class="btn btn-secondary btn-full">Call Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="container">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <h3>How long does taxidermy take?</h3>
+                    <p>Typical turnaround time is 6-12 months depending on the type of mount and our current workload. We'll provide an estimate when you drop off your trophy.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Do you process during hunting season?</h3>
+                    <p>Yes! We're open throughout hunting season with extended hours to accommodate your harvest. Call ahead for current wait times.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>What should I do immediately after my harvest?</h3>
+                    <p>Keep the animal cool and get it to us as quickly as possible. For taxidermy, avoid cutting the cape. Contact us for specific field care instructions.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Do you offer pickup services?</h3>
+                    <p>Pickup services may be available for large game or special circumstances. Contact us to discuss your specific needs.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Field To Freezer</h3>
+                    <p>Professional taxidermy and game processing services you can trust.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="services.html#taxidermy">Taxidermy</a></li>
+                        <li><a href="services.html#processing">Game Processing</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>Get in touch with us today</p>
+                    <a href="contact.html" class="footer-cta">Contact Form →</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Field To Freezer. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
