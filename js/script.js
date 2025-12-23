@@ -66,7 +66,6 @@ document.addEventListener('DOMContentLoaded', function() {
             const formData = {
                 name: document.getElementById('name').value,
                 email: document.getElementById('email').value,
-                phone: document.getElementById('phone').value || 'Not provided',
                 service: document.getElementById('service').value || 'Not specified',
                 message: document.getElementById('message').value
             };
@@ -89,7 +88,6 @@ document.addEventListener('DOMContentLoaded', function() {
             const emailBody = encodeURIComponent(
                 'Name: ' + formData.name + '\n' +
                 'Email: ' + formData.email + '\n' +
-                'Phone: ' + formData.phone + '\n' +
                 'Service Interest: ' + formData.service + '\n\n' +
                 'Message:\n' + formData.message
             );
@@ -164,7 +162,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
     
     // Log page load
-    console.log('Field To Freezer website loaded successfully!');
+    console.log('THGS Primitive Hideworks website loaded successfully!');
 });
 
 // Utility function for email validation
